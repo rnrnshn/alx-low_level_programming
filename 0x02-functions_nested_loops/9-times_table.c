@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * Description: times_table - prints the 9 times table, starting with 0
- * times_table: Entry point
+ * Description: time_table - prints the 9 times table, starting with 0
+ * time_table: Entry point
  * Return: void if success
  */
 
-void times_table(void)
+void time_table(void)
 {
 	int i, j, k;
 
