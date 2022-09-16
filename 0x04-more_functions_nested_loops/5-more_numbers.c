@@ -2,27 +2,26 @@
 #include <stdio.h>
 
 /**
- * more_numbers - Print numbers between 0 to 14.
+ * more_numbers - Print numbers between 0 to 14 incl.
  *
  * Return: Void.
  */
-
 void more_numbers(void)
 {
-	int a;
-	int b;
+	int i;
+	int x;
 
-	for (b = 0; b < 10; a++)
+	for (x = 0; x < 10; x++)
 	{
-		a = 0;
-		while (a <= 14)
+		i = 0;
+		while (i <= 14)
 		{
-			if ( >= 10)
+			if (i >= 10)
 			{
-				_putchar(a / 10 + '0');
+				_putchar(i / 10 + '0');
 			}
-				_putchar(a  % 10 + '0');
-			a++;
+				_putchar(i % 10 + '0');
+			i++;
 		}
 	_putchar('\n');
 	}
