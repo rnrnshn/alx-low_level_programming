@@ -1,5 +1,5 @@
 #include "main.h"
-11;rgb:0000/0000/0000#include <stdio.h>
+#include <stdio.h>
 
 /**
  * print_array - print an array.
@@ -16,7 +16,9 @@ void print_array(int *a, int n)
 		printf("%d", a[i]);
 
 		if (i < n - 1)
+		{
 			printf(", ");
+		}
 	}
 	printf("\n");
 }
