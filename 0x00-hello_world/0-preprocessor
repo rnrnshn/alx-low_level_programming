@@ -1,0 +1,5 @@
+#!/bin/bash
+
+OUTPUT_FILE="output.c"
+
+cpp "$CFILE" -o "OUTPUT_FILE"
