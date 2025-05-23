@@ -1,3 +1,9 @@
+/**
+ * main - entry point: prints whether a number is positive, negative or zero
+ *
+ * Return: Always 0 (Success)
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
